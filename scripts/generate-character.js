@@ -1,4 +1,4 @@
-const DungeonsAndDragons = artifacts.require('DungeonsAndDragonsCharacter')
+const DungeonsAndDragons = artifacts.require('DaD')
 
 module.exports = async callback => {
   const dnd = await DungeonsAndDragons.deployed()

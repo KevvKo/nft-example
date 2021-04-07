@@ -1,4 +1,4 @@
-const DungeonsAndDragons = artifacts.require('DungeonsAndDragonsCharacter')
+const DungeonsAndDragons = artifacts.require('DaD')
 const fs = require('fs')
 
 const metadataTemple = {

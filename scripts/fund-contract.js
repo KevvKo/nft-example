@@ -1,4 +1,4 @@
-const DungeonsAndDragonsCharacter = artifacts.require('DungeonsAndDragonsCharacter')
+const DungeonsAndDragonsCharacter = artifacts.require('DaD')
 const LinkTokenInterface = artifacts.require('LinkTokenInterface')
 
 /*

@@ -7,7 +7,7 @@ import "@chainlink/contracts/src/v0.6/VRFConsumerBase.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract DungeonsAndDragonsCharacter is ERC721, VRFConsumerBase, Ownable {
+contract DaD is ERC721, VRFConsumerBase, Ownable {
     using SafeMath for uint256;
     using Strings for string;
 
@@ -47,7 +47,7 @@ contract DungeonsAndDragonsCharacter is ERC721, VRFConsumerBase, Ownable {
     constructor(address _VRFCoordinator, address _LinkToken, bytes32 _keyhash)
         public
         VRFConsumerBase(_VRFCoordinator, _LinkToken)
-        ERC721("DungeonsAndDragonsCharacter", "D&D")
+        ERC721("DaD", "GG")
     {   
         VRFCoordinator = _VRFCoordinator;
         LinkToken = _LinkToken;
